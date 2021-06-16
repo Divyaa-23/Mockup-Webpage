@@ -62,7 +62,7 @@ body {
   position: relative;
 }
 .main-img {
-  background-image: url("/images/SLIDER-Saigon-Mini-Structuré-Goyard.jpg");
+  background-image: url("/images/img4.jpg");
   height: 30vw;
   width: 120vw;
   position: absolute;
@@ -164,7 +164,7 @@ button:hover {
   top: 74rem;
 }
 .secondimage {
-  background-image: url("/images/gazette-goyard.jpg");
+  background-image: url("/images/img1.jpg");
   position: absolute;
   background-repeat: no-repeat;
   height: 190px;
