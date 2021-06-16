@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --body-font-color: #c9b27c;
+}
+header {
+  background-color: #000000;
+  height: 140px;
+  position: relative;
+}
+.title,
+h3 {
+  color: var(--body-font-color);
+  text-align: center;
+  padding: 10px;
+  font-family: serif;
+  letter-spacing: 10px;
+}
+h3 {
+  font-family: sans-serif;
+  letter-spacing: 5px;
+}
+
+nav {
+  border: 1px solid var(--body-font-color);
+  height: 40px;
+  max-width: cover;
+  text-align: center;
+  padding: 10px;
+  border-left: none;
+  border-right: none;
+}
+nav ul li {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+
+  text-align: center;
+}
+
+nav ul li a {
+  text-align: justify;
+  color: white;
+  list-style-type: disc;
+  text-decoration: none;
+  padding: 555px 15px;
+
+  font-weight: bold;
+}
+.header-link {
+  position: absolute;
+  color: var(--body-font-color);
+  text-decoration: none;
+  top: 25px;
+  right: 250px;
+  padding: 10px 10px;
+}
+body {
+  position: relative;
+}
+.main-img {
+  background-image: url("/images/SLIDER-Saigon-Mini-Structuré-Goyard.jpg");
+  height: 30vw;
+  width: 120vw;
+  position: absolute;
+  margin-left: 100px;
+  background-repeat: no-repeat;
+}
+.font-pos {
+  position: absolute;
+  color: black;
+  margin-left: 50rem;
+  margin-top: 10rem;
+  text-align: center;
+
+  padding: 20px;
+
+  width: 40rem;
+  height: 20rem;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+.h2-font {
+  font-size: 3rem;
+  padding: 5px;
+  margin: 5px;
+}
+.main-pg {
+  position: relative;
+}
+.h2-title {
+  margin-top: 40rem;
+  position: absolute;
+  margin-left: 33rem;
+  font-size: 1.3rem;
+  padding: 15px;
+}
+.img1 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 45rem;
+  left: 35rem;
+  opacity: 1;
+}
+.img2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 45rem;
+  left: 57rem;
+}
+img:hover {
+  opacity: 0.3;
+
+  width: 310px;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+button {
+  background-color: #c6b57c;
+  border: 2px solid #c6b57c;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 5px 10px;
+  opacity: 1;
+}
+button:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.button1 {
+  position: absolute;
+  height: 3rem;
+  width: 5rem;
+  top: 55rem;
+  left: 42rem;
+}
+.button2 {
+  position: absolute;
+  height: 4rem;
+  width: 6rem;
+  top: 54rem;
+  left: 65rem;
+}
+.sectionTwo {
+  position: absolute;
+  margin-top: 70rem;
+
+  margin-left: 45rem;
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+#pid {
+  position: absolute;
+  color: black;
+  left: 42rem;
+  top: 74rem;
+}
+.secondimage {
+  background-image: url("/images/gazette-goyard.jpg");
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 190px;
+  width: 85rem;
+  top: 87rem;
+  left:24rem;
+  padding: 20px;
+  margin: 10px;
+}
+.footer {
+  background-color: #000000;
+  height: 250px;
+  position: relative;
+  top: 95rem;
+}
+
+.footer-box1,
+.footer-box2,
+.footer-box3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.footer-box1 {
+  margin-top: 30px;
+  left: 30rem;
+}
+.footer-box2 {
+  margin-top: 30px;
+  left: 50rem;
+}
+.footer-box3 {
+  margin-top: 30px;
+  left: 70rem;
+}
+
+ul li a {
+  color: var(--body-font-color);
+  font-size: 1rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+.icons {
+  position: absolute;
+  top: 14rem;
+  left: 41%;
+}
+a i {
+  color: var(--body-font-color);
+  padding-left: 15px;
+  padding-right: 15px;
+}
